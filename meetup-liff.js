@@ -39,6 +39,11 @@ function share() {
       "actions": [
         {
           "type": "uri",
+          "label": "Connpass",
+          "uri": "https://line.connpass.com/event/139283/"
+        },
+        {
+          "type": "uri",
           "label": "Selfie 📸",
           "uri": "line://nv/camera/"
         }
