@@ -46,6 +46,11 @@ function share() {
           "type": "uri",
           "label": "Selfie 📸",
           "uri": "line://nv/camera/"
+        },
+        {
+          "type": "uri",
+          "label": "LIFF",
+          "uri": "line://app/1600101091-PdEQmLkV"
         }
       ]
     }
