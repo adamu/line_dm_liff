@@ -54,6 +54,12 @@ function share() {
         }
       ]
     }
-  }])
-    .then(() => liff.closeWindow(), err => app.error = err)
+  }]).then(() => liff.closeWindow(), err => app.error = err)
+}
+
+function url() {
+  liff.sendMessages([{
+    "type": "text",
+    "text": "Endpoint: https://adamu.github.io/line_dm_liff/\nRepository: https://github.com/adamu/line_dm_liff"
+  }]).then(() => liff.closeWindow(), err => app.error = err)
 }
