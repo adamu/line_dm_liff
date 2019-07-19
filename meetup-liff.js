@@ -35,7 +35,7 @@ function share() {
       "imageSize": "cover",
       "imageBackgroundColor": "#FFFFFF",
       "title": app.profile.displayName,
-      "text": app.profile.statusMessage || "(no status message)",
+      "text": (app.profile.statusMessage || "(no status message)").substring(0,59),
       "actions": [
         {
           "type": "uri",
